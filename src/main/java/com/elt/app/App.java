@@ -15,7 +15,7 @@ public class App
 {
     public static void main( String[] args ) throws IOException {
         Properties data = new Properties();
-        FileInputStream fileLoc = new FileInputStream("./src/main/resources/app.properties");
+        FileInputStream fileLoc = new FileInputStream("src/main/resources/app.properties");
         data.load(fileLoc);
 
         eltTech eltDetails = new eltTech(
